@@ -1,0 +1,99 @@
+﻿body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin: 1cm;
+    background-image: radial-gradient(circle, rgb(200, 240, 220), rgb(180, 220, 200));
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rah {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.githubButton {
+  border-color: transparent;
+  background-color: transparent;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bolder;
+  height: 50px;
+  text-align: center;
+  transition: all 0.1s;
+  touch-action: manipulation;
+  color: rgb(160, 200, 180);
+}
+
+h1 {
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gradient {
+    background: -webkit-linear-gradient(35deg, rgba(76, 0, 255, 0.301), rgba(255, 0, 157, 0.288));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+.pa {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.pb {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.pc {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+}
+.b{
+    display: flex;
+    justify-content: center;
+}
+.c{
+    display: flex;
+    justify-content: center;
+}
+
+.githubButton:hover {
+    color: rgb(140, 180, 160);
+}
+
+.githubButton:active {
+    color: rgb(160, 200, 180);
+}
+
+h1 {
+    font-size: 100px;
+}
+
+a {
+    text-decoration: none;
+}
